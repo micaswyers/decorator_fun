@@ -2,7 +2,7 @@ from functools import wraps
 
 # ===== Example 2: Ordering decorators ======
 def bread(func):
-    """Func that inplies you're not gluten-free."""
+    """Func that implies you're not gluten-free."""
 
     @wraps(func)
     def wrapper(*args, **kwargs):
